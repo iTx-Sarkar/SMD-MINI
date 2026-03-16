@@ -2,7 +2,7 @@
   "name": "smd-mini",
   "version": "1.0.0",
   "description": "SMD Mini WhatsApp Bot using Baileys and MongoDB",
-  "type": "module",
+  "type": "commonJs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -22,6 +22,7 @@
     "mongodb": "^6.8.0",
     "axios": "^1.7.7",
     "node-fetch": "^3.3.2",
-    "pino": "^9.3.2"
+    "pino": "^9.3.2",
+    "team-bandaheali": "latest"
   }
 }
